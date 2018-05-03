@@ -81,7 +81,7 @@ a:hover {
 .page-container.sidebar-collapsed .sidebar-icon {
    transition: all 300ms ease-in-out;
 	   color: #fff;
-    background:#68AE00;
+    background:#388e3c;
 
 }
 .page-container.sidebar-collapsed .logo {
@@ -130,7 +130,7 @@ a:hover {
   top: 0px;
   left:0px;
   bottom: 0;
-  background-color:#202121;
+  background-color:#388E3C;
   color: #aaabae;
   z-index: 999;
 }
@@ -234,7 +234,7 @@ a:hover {
     -o-border-radius:3px;
     color: #FFF;
     background-clip: padding-box;
-    background:#68AE00;
+    background:#388E3C;
 }
 .sidebar-icon:hover{
 	 color: #FFF;
@@ -245,7 +245,7 @@ a:hover {
 }
 /*--nav strip start here--*/
 .header-main {
-    background:#27ae60;
+    background:#4caf50;
     padding: 1em 2em;
     box-shadow: 0 1px 3px rgba(0,0,0,0.15);
 }
@@ -262,14 +262,14 @@ a:hover {
     width: 30%;
     margin: 0% 3% 0% 2%;
 }
-.logo-name h1 {
-    font-size: 2.5em;
+.logo-name h3 {
+    /*font-size: 2.5em;*/
     color: #FC8213;
     margin: 0em;
     font-weight: 700;
     text-decoration: none;
 }
-.logo-name  h1 a{
+.logo-name  h3 a{
 	 color: #910048;
 }
 .logo-name a {
