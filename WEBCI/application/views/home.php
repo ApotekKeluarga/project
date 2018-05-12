@@ -79,8 +79,8 @@
         <i class="icon md-more" aria-hidden="true"></i>
       </button>
       <div class="navbar-brand navbar-brand-center site-gridmenu-toggle" data-toggle="gridmenu">
-        <img class="navbar-brand-logo" src="<?php echo base_url() ?>assets/web/base/images/icon.png" title="Remark">
-        <span class="navbar-brand-text hidden-xs-down">APOTEK KELUARGA</span>
+        <img class="navbar-brand-logo" src="<?php echo base_url() ?>assets/web/base/images/edit.png" title="Remark">
+        <!--span class="navbar-brand-text hidden-xs-down">APOTEK KELUARGA</span-->
       </div>
       <button type="button" class="navbar-toggler collapsed" data-target="#site-navbar-search"
         data-toggle="collapse">
@@ -340,7 +340,7 @@
       <div>
         <div>
           <ul class="site-menu" data-plugin="menu">
-            <li class="site-menu-category">General</li>
+            <!--li class="site-menu-category">General</li-->
             <li class="site-menu-item active">
               <a href="index.html">
                                 <i class="site-menu-icon md-view-dashboard" aria-hidden="true"></i>
@@ -350,10 +350,10 @@
             <li class="site-menu-item has-sub">
               <a href="javascript:void(0)">
                                 <i class="site-menu-icon md-view-compact" aria-hidden="true"></i>
-                                <span class="site-menu-title">Layouts</span>
-                                        <span class="site-menu-arrow"></span>
+                                <span class="site-menu-title">Tips Kesehatan</span>
+                                        <!--span class="site-menu-arrow"></span-->
               </a>
-              <ul class="site-menu-sub">
+              <!--ul class="site-menu-sub">
                 <li class="site-menu-item">
                   <a href="layouts/menu-collapsed.html">
                     <span class="site-menu-title">Menu Collapsed</span>
@@ -438,14 +438,14 @@
                   </ul>
                 </li>
               </ul>
-            </li>
+            </li-->
             <li class="site-menu-item has-sub">
               <a href="javascript:void(0)">
                                 <i class="site-menu-icon md-google-pages" aria-hidden="true"></i>
-                                <span class="site-menu-title">Pages</span>
-                                        <span class="site-menu-arrow"></span>
+                                <span class="site-menu-title">News</span>
+                                        <!--span class="site-menu-arrow"></span-->
               </a>
-              <ul class="site-menu-sub">
+              <!--ul class="site-menu-sub">
                 <li class="site-menu-item has-sub">
                   <a href="javascript:void(0)">
                     <span class="site-menu-title">Errors</span>
@@ -647,15 +647,15 @@
                   </a>
                 </li>
               </ul>
-            </li>
-            <li class="site-menu-category">Elements</li>
+            </li-->
+            <!--li class="site-menu-category">Elements</li-->
             <li class="site-menu-item has-sub">
               <a href="javascript:void(0)">
                                 <i class="site-menu-icon md-palette" aria-hidden="true"></i>
-                                <span class="site-menu-title">Basic UI</span>
-                                        <span class="site-menu-arrow"></span>
+                                <span class="site-menu-title">Slide Show</span>
+                                        <!--span class="site-menu-arrow"></span-->
               </a>
-              <ul class="site-menu-sub">
+              <!--ul class="site-menu-sub">
                 <li class="site-menu-item has-sub">
                   <a href="javascript:void(0)">
                     <span class="site-menu-title">Panel</span>
@@ -755,87 +755,22 @@
                   </a>
                 </li>
               </ul>
-            </li>
+            </li-->
             <li class="site-menu-item has-sub">
               <a href="javascript:void(0)">
-                                <i class="site-menu-icon md-format-color-fill" aria-hidden="true"></i>
-                                <span class="site-menu-title">Advanced UI</span>
+                                <i class="site-menu-icon md-border-all" aria-hidden="true"></i>
+                                <span class="site-menu-title">Data Master</span>
                                         <span class="site-menu-arrow"></span>
               </a>
               <ul class="site-menu-sub">
-                <li class="site-menu-item hidden-sm-down site-tour-trigger">
-                  <a href="javascript:void(0)">
-                    <span class="site-menu-title">Tour</span>
+        <li class="site-menu-item">
+                  <a href="tables/datatable.html">
+                    <span class="site-menu-title">Kategori Obat</span>
                   </a>
                 </li>
-                <li class="site-menu-item">
-                  <a href="advanced/animation.html">
-                    <span class="site-menu-title">Animation</span>
-                  </a>
-                </li>
-                <li class="site-menu-item">
-                  <a href="advanced/highlight.html">
-                    <span class="site-menu-title">Highlight</span>
-                  </a>
-                </li>
-                <li class="site-menu-item">
-                  <a href="advanced/lightbox.html">
-                    <span class="site-menu-title">Lightbox</span>
-                  </a>
-                </li>
-                <li class="site-menu-item">
-                  <a href="advanced/scrollable.html">
-                    <span class="site-menu-title">Scrollable</span>
-                  </a>
-                </li>
-                <li class="site-menu-item">
-                  <a href="advanced/rating.html">
-                    <span class="site-menu-title">Rating</span>
-                  </a>
-                </li>
-                <li class="site-menu-item">
-                  <a href="advanced/context-menu.html">
-                    <span class="site-menu-title">Context Menu</span>
-                  </a>
-                </li>
-                <li class="site-menu-item">
-                  <a href="advanced/alertify.html">
-                    <span class="site-menu-title">Alertify</span>
-                  </a>
-                </li>
-                <li class="site-menu-item">
-                  <a href="advanced/masonry.html">
-                    <span class="site-menu-title">Masonry</span>
-                  </a>
-                </li>
-                <li class="site-menu-item">
-                  <a href="advanced/treeview.html">
-                    <span class="site-menu-title">Treeview</span>
-                  </a>
-                </li>
-                <li class="site-menu-item">
-                  <a href="advanced/toastr.html">
-                    <span class="site-menu-title">Toastr</span>
-                  </a>
-                </li>
-                <li class="site-menu-item">
-                  <a href="advanced/maps-vector.html">
-                    <span class="site-menu-title">Vector Maps</span>
-                  </a>
-                </li>
-                <li class="site-menu-item">
-                  <a href="advanced/maps-google.html">
-                    <span class="site-menu-title">Google Maps</span>
-                  </a>
-                </li>
-                <li class="site-menu-item">
-                  <a href="advanced/sortable-nestable.html">
-                    <span class="site-menu-title">Sortable &amp; Nestable</span>
-                  </a>
-                </li>
-                <li class="site-menu-item">
-                  <a href="advanced/bootbox-sweetalert.html">
-                    <span class="site-menu-title">Bootbox &amp; Sweetalert</span>
+        <li class="site-menu-item">
+                  <a href="tables/datatable.html">
+                    <span class="site-menu-title">Data Obat</span>
                   </a>
                 </li>
               </ul>
@@ -843,10 +778,10 @@
             <li class="site-menu-item has-sub">
               <a href="javascript:void(0)">
                                 <i class="site-menu-icon md-puzzle-piece" aria-hidden="true"></i>
-                                <span class="site-menu-title">Structure</span>
-                                        <span class="site-menu-arrow"></span>
+                                <span class="site-menu-title">Pesanan</span>
+                                        <!--span class="site-menu-arrow"></span-->
               </a>
-              <ul class="site-menu-sub">
+              <!--ul class="site-menu-sub">
                 <li class="site-menu-item">
                   <a href="structure/alerts.html">
                     <span class="site-menu-title">Alerts</span>
@@ -933,14 +868,14 @@
                   </a>
                 </li>
               </ul>
-            </li>
+            </li-->
             <li class="site-menu-item has-sub">
               <a href="javascript:void(0)">
                                 <i class="site-menu-icon md-widgets" aria-hidden="true"></i>
-                                <span class="site-menu-title">Widgets</span>
-                                        <span class="site-menu-arrow"></span>
+                                <span class="site-menu-title">Kirim resep obat</span>
+                                        <!--span class="site-menu-arrow"></span-->
               </a>
-              <ul class="site-menu-sub">
+              <!--ul class="site-menu-sub">
                 <li class="site-menu-item">
                   <a href="widgets/statistics.html">
                     <span class="site-menu-title">Statistics Widgets</span>
@@ -972,8 +907,8 @@
                   </a>
                 </li>
               </ul>
-            </li>
-            <li class="site-menu-item has-sub">
+            </li-->
+            <!--li class="site-menu-item has-sub">
               <a href="javascript:void(0)">
                                 <i class="site-menu-icon md-comment-alt-text" aria-hidden="true"></i>
                                 <span class="site-menu-title">Forms</span>
@@ -1052,25 +987,6 @@
             </li>
             <li class="site-menu-item has-sub">
               <a href="javascript:void(0)">
-                                <i class="site-menu-icon md-border-all" aria-hidden="true"></i>
-                                <span class="site-menu-title">Data Master</span>
-                                        <span class="site-menu-arrow"></span>
-              </a>
-              <ul class="site-menu-sub">
-			  <li class="site-menu-item">
-                  <a href="tables/datatable.html">
-                    <span class="site-menu-title">Data Barang</span>
-                  </a>
-                </li>
-				<li class="site-menu-item">
-                  <a href="tables/datatable.html">
-                    <span class="site-menu-title">Data News</span>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="site-menu-item has-sub">
-              <a href="javascript:void(0)">
                                 <i class="site-menu-icon md-chart" aria-hidden="true"></i>
                                 <span class="site-menu-title">Chart</span>
                                         <span class="site-menu-arrow"></span>
@@ -1127,8 +1043,8 @@
                   </a>
                 </li>
               </ul>
-            </li>
-            <li class="site-menu-category">Apps</li>
+            </li-->
+            <!--li class="site-menu-category">Apps</li>
             <li class="site-menu-item has-sub">
               <a href="javascript:void(0)">
                                 <i class="site-menu-icon md-apps" aria-hidden="true"></i>
@@ -1221,7 +1137,7 @@
                 </li>
               </ul>
             </li>
-          </ul>
+          </ul-->
 
           <div class="site-menubar-section">
             <h5>
@@ -1318,16 +1234,26 @@
   <div class="page">
     <div class="page-content container-fluid">
       <div class="row" data-plugin="matchHeight" data-by-row="true">
-        <div class="col-xl-4 col-lg-6">
+        <div class="col-xl-6 col-lg-4">
           <!-- Widget Chat -->
-          <div class="card card-shadow" id="chat">
+          <div class="container-fluid">
+                <!-- Breadcrumbs-->
+            <ol class="breadcrumb">
+
+              <li class="breadcrumb-item">
+                <a href="./">Dashboard</a>
+              </li>
+              <li class="breadcrumb-item active">My Dashboard</li>
+            </ol>
+          <h1 align="center">WELCOME TO DASHBOARD</h1>
             
             
-            </div>
-            </div>
           </div>
-          <!-- End Widget Chat -->
         </div>
+      </div>
+          <!-- End Widget Chat -->
+    </div>
+  </div>
 
         <div class="col-xxl-5 col-lg-6">
           <!-- Panel Projects -->
