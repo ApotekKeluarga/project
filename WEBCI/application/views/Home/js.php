@@ -11,7 +11,7 @@
 
   <title>APOTEK KELUARGA</title>
 
-  <link rel="apple-touch-icon" href="<?php echo base_url() ?>assets/web/base/images/icon.png>
+  
   <link rel="shortcut icon" href="<?php echo base_url() ?>assets/web/base/images/icon.png">
 
   <!-- Stylesheets -->
