@@ -12,29 +12,29 @@
               </a>
             </li>
             <li class="site-menu-item has-sub">
-              <a href="javascript:void(0)">
-                                <i class="site-menu-icon md-view-compact" aria-hidden="true"></i>
+              <a href="<?php echo base_url() ?>index.php/Tips">
+                                <i class="site-menu-icon md-library" aria-hidden="true"></i>
                                 <span class="site-menu-title">Tips Kesehatan</span>
                                        
               </a>
               
             <li class="site-menu-item has-sub">
-              <a href="javascript:void(0)">
-                                <i class="site-menu-icon md-google-pages" aria-hidden="true"></i>
+              <a href="<?php echo base_url() ?>index.php/News">
+                                <i class="site-menu-icon md-collection-text" aria-hidden="true"></i>
                                 <span class="site-menu-title">News</span>
                                         
               </a>
               
             <li class="site-menu-item has-sub">
-              <a href="javascript:void(0)">
-                                <i class="site-menu-icon md-palette" aria-hidden="true"></i>
+              <a href="<?php echo base_url() ?>index.php/Slideshow">
+                                <i class="site-menu-icon md-collection-image-o" aria-hidden="true"></i>
                                 <span class="site-menu-title">Slide Show</span>
                                         
               </a>
               
             <li class="site-menu-item has-sub">
               <a href="javascript:void(0)">
-                                <i class="site-menu-icon md-border-all" aria-hidden="true"></i>
+                                <i class="site-menu-icon md-window-restore" aria-hidden="true"></i>
                                 <span class="site-menu-title">Data Master</span>
                                         <span class="site-menu-arrow"></span>
               </a>
@@ -52,15 +52,15 @@
               </ul>
             </li>
             <li class="site-menu-item has-sub">
-              <a href="javascript:void(0)">
-                                <i class="site-menu-icon md-puzzle-piece" aria-hidden="true"></i>
+              <a href="<?php echo base_url() ?>index.php/Pesanan">
+                                <i class="site-menu-icon md-shopping-cart" aria-hidden="true"></i>
                                 <span class="site-menu-title">Pesanan</span>
                                        
               </a>
               
             <li class="site-menu-item has-sub">
-              <a href="javascript:void(0)">
-                                <i class="site-menu-icon md-widgets" aria-hidden="true"></i>
+              <a href="<?php echo base_url() ?>index.php/Kirim_resep">
+                                <i class="site-menu-icon md-mail-send" aria-hidden="true"></i>
                                 <span class="site-menu-title">Kirim resep obat</span>
                                         
               </a>

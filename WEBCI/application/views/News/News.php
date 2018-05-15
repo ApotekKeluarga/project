@@ -42,13 +42,13 @@
 		      <thead class="bg-light">
 			      <tr>
 			        <th>No.</th>
-			        <th>Kategori</th>
+			        <th>Judul Berita</th>
+              <th>Images</th>
 			        <th width="115px">Action</th>
 			      </tr>
 		    </thead>
             <tbody>
               
-            </tbody>
           </table>
         </div>
       </div>

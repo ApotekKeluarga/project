@@ -42,7 +42,11 @@
 		      <thead class="bg-light">
 			      <tr>
 			        <th>No.</th>
-			        <th>Kategori</th>
+              <th>Status Obat</th>
+              <th>Status Pesanan</th>
+              <th>Image</th>
+              <th>Harga</th>
+              <th>Keterangan</th>
 			        <th width="115px">Action</th>
 			      </tr>
 		    </thead>

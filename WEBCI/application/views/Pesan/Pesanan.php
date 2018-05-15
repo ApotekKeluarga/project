@@ -42,7 +42,11 @@
 		      <thead class="bg-light">
 			      <tr>
 			        <th>No.</th>
-			        <th>Kategori</th>
+              <th>Nama</th>
+              <th>No. Telpon</th>
+              <th>Tanggal Order</th>
+              <th>Alamat</th>
+              <th>status</th>
 			        <th width="115px">Action</th>
 			      </tr>
 		    </thead>
