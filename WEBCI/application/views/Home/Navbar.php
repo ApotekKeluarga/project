@@ -230,7 +230,7 @@
               <a class="dropdown-item" href="javascript:void(0)" role="menuitem"><i class="icon md-account" aria-hidden="true"></i> Profile</a>
               <a class="dropdown-item" href="javascript:void(0)" role="menuitem"><i class="icon md-settings" aria-hidden="true"></i> Settings</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="javascript:void(0)" role="menuitem"><i class="icon md-power" aria-hidden="true"></i> Logout</a>            </div>
+              <a class="dropdown-item" href="<?php echo base_url('index.php/awal/logout'); ?>" role="menuitem"><i class="icon md-power" aria-hidden="true"></i> Logout</a>            </div>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link" data-toggle="dropdown" href="javascript:void(0)" title="Notifications"
