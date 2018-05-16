@@ -26,7 +26,7 @@ public class LayananFragment extends Fragment {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_layanan, container, false);
         ListView listview =(ListView) rootView.findViewById(R.id.list);
-        final String[] items = new String[] {"Konfirmasi Pesanan", "Layanan"};
+        final String[] items = new String[] {"Konfirmasi Pesanan", "Bantuan"};
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1,items);
         listview.setAdapter(adapter);
         listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {

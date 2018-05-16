@@ -15,7 +15,6 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -28,7 +27,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.aprian_pc.akonline.Daftar" />
         </activity>
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".MainActivity"
             android:label=""
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -36,6 +36,12 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.aprian_pc.akonline.MainActivity" />
         </activity>
+        <activity android:name=".Checkout" />
+        <activity android:name=".TentangKami" />
+        <activity android:name=".KetentuanLayanan" />
+        <activity android:name=".KetentuanPenggunaan" />
+        <activity android:name=".KetentuanTransaksi" />
+        <activity android:name=".ProfilUser"></activity>
     </application>
 
 </manifest>
