@@ -6,12 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.aprian_pc.akonline.Login"
-    android:background="#16a085">
+    android:background="#ffffff">
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginTop="90dp"
-        android:src="@drawable/login2"/>
+        android:src="@drawable/login"/>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Belum punya akun ?"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="15dp"
             android:layout_marginLeft="80dp"
             android:layout_marginTop="10dp"/>
@@ -66,8 +66,8 @@
             android:layout_width="60dp"
             android:layout_height="30dp"
             android:text="Daftar"
-            android:textColor="#227093"
-            android:background="@color/colorPrimary"
+            android:textColor="#000000"
+            android:background="@color/white"
             android:textStyle="bold"
             android:textSize="15dp"
             android:layout_marginLeft="215dp"

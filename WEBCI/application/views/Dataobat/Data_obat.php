@@ -18,9 +18,10 @@
       <div class="col-lg-12">
         <form class="form-inline" action="" method="post" >
             <input class="form-control" type="search" placeholder="Search" name="search_obat_admin" aria-label="Search" >
-            <button style="margin-left: 8px" class="icon md-search" ></i> </button>
+            <button style="margin-left: 8px" class="btn btn-success my-2 my-sm-0" name="cariobat" type="submit"><i class="nav-link icon md-search" ></i> </button>
         </form>
       </div>
+      <br>
       <br>
       <!-- Panel Table Add Row -->
       <div class="panel">
@@ -57,7 +58,531 @@
 			      </tr>
 		    </thead>
             <tbody>
-              
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Internet Explorer 5.5</td>
+                <td>Win 95+</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Internet Explorer 6</td>
+                <td>Win 98+</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>AOL browser (AOL desktop)</td>
+                <td>Win XP</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Gecko</td>
+                <td>Firefox 1.0</td>
+                <td>Win 98+ / OSX.2+</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Camino 1.0</td>
+                <td>OSX.2+</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Netscape 7.2</td>
+                <td>Win 95+ / Mac OS 8.6-9.2</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Internet Explorer 5.5</td>
+                <td>Win 95+</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Internet Explorer 6</td>
+                <td>Win 98+</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>AOL browser (AOL desktop)</td>
+                <td>Win XP</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Gecko</td>
+                <td>Firefox 1.0</td>
+                <td>Win 98+ / OSX.2+</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Camino 1.0</td>
+                <td>OSX.2+</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Netscape 7.2</td>
+                <td>Win 95+ / Mac OS 8.6-9.2</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Camino 1.0</td>
+                <td>OSX.2+</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Netscape 7.2</td>
+                <td>Win 95+ / Mac OS 8.6-9.2</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Internet Explorer 5.5</td>
+                <td>Win 95+</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Internet Explorer 6</td>
+                <td>Win 98+</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>AOL browser (AOL desktop)</td>
+                <td>Win XP</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Gecko</td>
+                <td>Firefox 1.0</td>
+                <td>Win 98+ / OSX.2+</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Camino 1.0</td>
+                <td>OSX.2+</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Netscape 7.2</td>
+                <td>Win 95+ / Mac OS 8.6-9.2</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Netscape 7.2</td>
+                <td>Win 95+ / Mac OS 8.6-9.2</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Internet Explorer 5.5</td>
+                <td>Win 95+</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Internet Explorer 6</td>
+                <td>Win 98+</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>AOL browser (AOL desktop)</td>
+                <td>Win XP</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Gecko</td>
+                <td>Firefox 1.0</td>
+                <td>Win 98+ / OSX.2+</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Camino 1.0</td>
+                <td>OSX.2+</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Netscape 7.2</td>
+                <td>Win 95+ / Mac OS 8.6-9.2</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Camino 1.0</td>
+                <td>OSX.2+</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Netscape 7.2</td>
+                <td>Win 95+ / Mac OS 8.6-9.2</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Internet Explorer 5.5</td>
+                <td>Win 95+</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Internet Explorer 6</td>
+                <td>Win 98+</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>AOL browser (AOL desktop)</td>
+                <td>Win XP</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Gecko</td>
+                <td>Firefox 1.0</td>
+                <td>Win 98+ / OSX.2+</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Camino 1.0</td>
+                <td>OSX.2+</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr class="gradeA">
+                <td>Trident</td>
+                <td>Netscape 7.2</td>
+                <td>Win 95+ / Mac OS 8.6-9.2</td>
+                <td class="actions">
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
+                    data-toggle="tooltip" data-original-title="Save" hidden><i class="icon md-wrench" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
+                    data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon md-close" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
+                    data-toggle="tooltip" data-original-title="Edit"><i class="icon md-edit" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row"
+                    data-toggle="tooltip" data-original-title="Remove"><i class="icon md-delete" aria-hidden="true"></i></a>
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>
