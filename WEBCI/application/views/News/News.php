@@ -41,11 +41,23 @@
 		    <table class="table table-bordered" width="100%" cellspacing="0">
 		      <thead class="bg-light">
 			      <tr>
-			        <th>No.</th>
-			        <th>Judul Berita</th>
+			        <th>Kode News</th>
+			        <th>Email</th>
+              <th>Judul</th>
               <th>Images</th>
 			        <th width="115px">Action</th>
 			      </tr>
+            <?php
+            foreach ($data_news as $value) {
+      ?>
+            <tr>
+              <th><?php echo $value -> kd_news ?></th>
+              <th><?php echo $value -> kd_user_admin ?></th>
+              <th><?php echo $value -> judul ?></th>
+              <th><?php echo base_url().'assets/web/base/images/'.$value -> img ?></th>
+              
+            </tr>
+            <?php } ?>
 		    </thead>
             <tbody>
               

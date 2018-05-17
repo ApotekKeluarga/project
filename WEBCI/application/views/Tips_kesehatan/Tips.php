@@ -47,10 +47,23 @@
               <th>Images</th>
 			        <th width="115px">Action</th>
 			      </tr>
-		    </thead>
-            <tbody>
+		      </thead>
+          <tbody>
+            <?php 
+                foreach ($data_tips as $value) {?>
+                <tr>
+                  <td><?php echo $value-> kd_tips?></td>
+                  <td><?php echo $value-> judul?></td>
+                  <td><?php echo $value-> isi?></td>
+                  <td><?php echo $value-> img?></td>
+                </tr>
+            <?php
+                }
+            ?>
               
-          </table>
+          </tbody>
+            
+        </table>
         </div>
       </div>
       <!-- End Panel Table Add Row -->   

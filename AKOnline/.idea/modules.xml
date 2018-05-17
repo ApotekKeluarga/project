@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+<<<<<<< HEAD:AKOLN/.idea/modules.xml
+      <module fileurl="file://$PROJECT_DIR$/AKOLN.iml" filepath="$PROJECT_DIR$/AKOLN.iml" />
+      <module fileurl="file://D:\Document\KULIAH\Semester4\PROJECT BESAR\AKOLN\AKOLN.iml" filepath="D:\Document\KULIAH\Semester4\PROJECT BESAR\AKOLN\AKOLN.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/AKOnline.iml" filepath="$PROJECT_DIR$/AKOnline.iml" />
+>>>>>>> 01e0f097035f16b9e36c8354f13aca836569c5c6:AKOnline/.idea/modules.xml
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\Document\KULIAH\Semester4\PROJECT BESAR\AKOLN\app\app.iml" filepath="D:\Document\KULIAH\Semester4\PROJECT BESAR\AKOLN\app\app.iml" />
+    </modules>
+  </component>
+</project>

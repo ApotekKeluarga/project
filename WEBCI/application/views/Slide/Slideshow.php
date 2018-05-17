@@ -47,6 +47,16 @@
 			      </tr>
 		    </thead>
             <tbody>
+              <?php 
+                foreach ($data_slideshow as $slide) {?>
+                <tr>
+                  <td><?php echo $slide-> kd_slideshow?></td>
+                  <td><?php echo $slide-> img?></td>
+                </tr>
+            <?php
+                }
+            ?>
+            </tbody>
               
           </table>
         </div>
