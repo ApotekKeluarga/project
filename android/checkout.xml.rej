@@ -1,0 +1,9 @@
+diff a/android/checkout.xml b/android/checkout.xml	(rejected hunks)
+@@ -4,6 +4,7 @@
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+ 
++    <ScrollView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_alignParentStart="true"
