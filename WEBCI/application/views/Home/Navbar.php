@@ -14,8 +14,8 @@
         <i class="icon md-more" aria-hidden="true"></i>
       </button>
       <div class="navbar-brand navbar-brand-center site-gridmenu-toggle" data-toggle="gridmenu">
-        <img class="navbar-brand-logo" src="<?php echo base_url() ?>assets/web/base/images/edit.png" title="Remark">
-        <!--span class="navbar-brand-text hidden-xs-down">APOTEK KELUARGA</span-->
+        <img class="navbar-brand-logo" src="<?php echo base_url() ?>assets/web/base/images/icon.png" title="Remark">
+        <span class="navbar-brand-text hidden-xs-down">APOTEK KELUARGA</span>
       </div>
       <button type="button" class="navbar-toggler collapsed" data-target="#site-navbar-search"
         data-toggle="collapse">
@@ -49,8 +49,8 @@
             </a>
           </li>
           <li class="nav-item dropdown dropdown-fw dropdown-mega">
-            <a class="nav-link" data-toggle="dropdown" href="#" aria-expanded="false" data-animation="fade"
-              role="button">Mega <i class="icon md-chevron-down" aria-hidden="true"></i></a>
+            <!--a class="nav-link" data-toggle="dropdown" href="#" aria-expanded="false" data-animation="fade"
+              role="button">Mega <i class="icon md-chevron-down" aria-hidden="true"></i></a-->
             <div class="dropdown-menu" role="menu">
               <div class="mega-content">
                 <div class="row">

@@ -86,7 +86,7 @@
       </div>
     </div>
 
-    <div class="site-menubar-footer">
+    <!--div class="site-menubar-footer">
       <a href="javascript: void(0);" class="fold-show" data-placement="top" data-toggle="tooltip"
         data-original-title="Settings">
         <span class="icon md-settings" aria-hidden="true"></span>
@@ -97,7 +97,7 @@
       <a href="javascript: void(0);" data-placement="top" data-toggle="tooltip" data-original-title="Logout">
         <span class="icon md-power" aria-hidden="true"></span>
       </a>
-    </div>
+    </div-->
   </div>
   <div class="site-gridmenu">
     <div>
