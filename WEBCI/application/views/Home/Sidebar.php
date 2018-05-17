@@ -40,12 +40,16 @@
               </a>
               <ul class="site-menu-sub">
         <li class="site-menu-item">
+<<<<<<< HEAD
                   <a href="<?php echo base_url() ?>index.php/Kategori">
+=======
+                  <a href="<?php echo base_url() ?>index.php/Dataobat/Kategori_obat">
+>>>>>>> e0224a28bf580bdecd4acc19aa262c2fc7278418
                     <span class="site-menu-title">Kategori Obat</span>
                   </a>
                 </li>
         <li class="site-menu-item">
-                  <a href="<?php echo base_url() ?>index.php/Data_obat">
+                  <a href="<?php echo base_url() ?>index.php/Dataobat/Data_obat">
                     <span class="site-menu-title">Data Obat</span>
                   </a>
                 </li>
@@ -86,7 +90,7 @@
       </div>
     </div>
 
-    <div class="site-menubar-footer">
+    <!--div class="site-menubar-footer">
       <a href="javascript: void(0);" class="fold-show" data-placement="top" data-toggle="tooltip"
         data-original-title="Settings">
         <span class="icon md-settings" aria-hidden="true"></span>
@@ -97,7 +101,7 @@
       <a href="javascript: void(0);" data-placement="top" data-toggle="tooltip" data-original-title="Logout">
         <span class="icon md-power" aria-hidden="true"></span>
       </a>
-    </div>
+    </div-->
   </div>
   <div class="site-gridmenu">
     <div>
