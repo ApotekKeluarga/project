@@ -70,9 +70,8 @@
         <activity
             android:name=".Cari"
             android:label="Cari"
-            android:parentActivityName=".MainActivity">
-
-        </activity>
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".SplashLayer"></activity>
     </application>
 
 </manifest>
