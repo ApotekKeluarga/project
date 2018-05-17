@@ -11,7 +11,7 @@ class Tips extends CI_Controller {
 	public function index()
 	{
 		$data = array(
-			'data_tips' => $this->Tips_kesehatan->get_tips(),
+			'data_tips' => $this-> Tips_kesehatan ->get_tips(),
 		);
 		$this->load->view('Tips_kesehatan/Tips', $data);
 	}

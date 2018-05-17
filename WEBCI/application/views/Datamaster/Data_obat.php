@@ -18,9 +18,10 @@
       <div class="col-lg-12">
         <form class="form-inline" action="" method="post" >
             <input class="form-control" type="search" placeholder="Search" name="search_obat_admin" aria-label="Search" >
-            <button style="margin-left: 8px" class="icon md-search" ></i> </button>
+            <button style="margin-left: 8px" class="btn btn-success my-2 my-sm-0" name="cariobat" type="submit"><i class="nav-link icon md-search" ></i> </button>
         </form>
       </div>
+      <br>
       <br>
       <!-- Panel Table Add Row -->
       <div class="panel">
@@ -42,22 +43,41 @@
 		      <thead class="bg-light">
 			      <tr>
 			        <th>No.</th>
-              <th>Images</th>
+			        <th>Nama</th>
+			        <th>Kategori</th>
+			        <th>Komposisi</th>
+			        <th>Indikasi</th>
+			        <th>Dosis</th>
+			        <th>Penyajian</th>
+			        <th>Kemasan</th>
+			        <th>Harga</th>
+			        <th>Deskripsi</th>
+			        <th>Stok</th>
+			        <th>Gambar</th>
 			        <th width="115px">Action</th>
 			      </tr>
 		    </thead>
             <tbody>
-              <?php 
-                foreach ($data_slideshow as $slide) {?>
+               <?php 
+                foreach ($data_obat as $obat) {?>
                 <tr>
-                  <td><?php echo $slide-> kd_slideshow?></td>
-                  <td><?php echo $slide-> img?></td>
+                  <td><?php echo $obat-> kd_barang?></td>
+                  <td><?php echo $obat-> nm_barang?></td>
+                  <td><?php echo $obat-> kd_kategori?></td>
+                  <td><?php echo $obat-> komposisi?></td>
+                  <td><?php echo $obat-> indikasi?></td>
+                  <td><?php echo $obat-> dosis?></td>
+                  <td><?php echo $obat-> penyajian?></td>
+                  <td><?php echo $obat-> kemasan?></td>
+                  <td><?php echo $obat-> harga?></td>
+                  <td><?php echo $obat-> deskripsi?></td>
+                  <td><?php echo $obat-> stok?></td>
+                  <td><?php echo $obat-> img?></td>
                 </tr>
             <?php
                 }
             ?>
             </tbody>
-              
           </table>
         </div>
       </div>

@@ -18,9 +18,10 @@
       <div class="col-lg-12">
         <form class="form-inline" action="" method="post" >
             <input class="form-control" type="search" placeholder="Search" name="search_obat_admin" aria-label="Search" >
-            <button style="margin-left: 8px" class="icon md-search" ></i> </button>
+            <button style="margin-left: 8px" class="btn btn-success my-2 my-sm-0" name="cariobat" type="submit"><i class="nav-link icon md-search" ></i> </button>
         </form>
       </div>
+      <br>
       <br>
       <!-- Panel Table Add Row -->
       <div class="panel">
@@ -42,22 +43,21 @@
 		      <thead class="bg-light">
 			      <tr>
 			        <th>No.</th>
-              <th>Images</th>
+			        <th>Kategori</th>
 			        <th width="115px">Action</th>
 			      </tr>
 		    </thead>
             <tbody>
               <?php 
-                foreach ($data_slideshow as $slide) {?>
+                foreach ($kategori as $kat) {?>
                 <tr>
-                  <td><?php echo $slide-> kd_slideshow?></td>
-                  <td><?php echo $slide-> img?></td>
+                  <td><?php echo $kat-> kd_kategori?></td>
+                  <td><?php echo $kat-> nm_kategori?></td>
                 </tr>
             <?php
                 }
             ?>
             </tbody>
-              
           </table>
         </div>
       </div>
