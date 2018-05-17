@@ -36,6 +36,7 @@
         android:orientation="horizontal"
         android:layout_marginTop="40px">
             <ImageButton
+                android:id="@+id/herbal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/herbal"
@@ -44,6 +45,7 @@
                 android:state_pressed="true"
                 android:state_focused="true"/>
             <ImageButton
+                android:id="@+id/antibiotik"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/antibiotik"
@@ -52,6 +54,7 @@
                 android:state_pressed="true"
                 android:state_focused="true"/>
             <ImageButton
+                android:id="@+id/suplemen"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/suplemen"
@@ -92,6 +95,7 @@
         android:orientation="horizontal"
         android:layout_marginTop="20px">
         <ImageButton
+            android:id="@+id/anak"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/anak"
@@ -100,6 +104,7 @@
             android:state_pressed="true"
             android:state_focused="true"/>
         <ImageButton
+            android:id="@+id/kesehatan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/kesehatan"
@@ -108,6 +113,7 @@
             android:state_pressed="true"
             android:state_focused="true"/>
         <ImageButton
+            android:id="@+id/resep"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/resep"
@@ -148,6 +154,7 @@
         android:orientation="horizontal"
         android:layout_marginTop="20px">
         <ImageButton
+            android:id="@+id/cari"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/cari"

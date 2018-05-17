@@ -15,6 +15,7 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -41,7 +42,37 @@
         <activity android:name=".KetentuanLayanan" />
         <activity android:name=".KetentuanPenggunaan" />
         <activity android:name=".KetentuanTransaksi" />
-        <activity android:name=".ProfilUser"></activity>
+        <activity android:name=".ProfilUser" />
+        <activity
+            android:name=".ObatHerbal"
+            android:label="Obat Herbal"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ObatAntibiotik"
+            android:label="Obat Antibiotik"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ObatSuplemen"
+            android:label="Obat Suplemen"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ObatAnak"
+            android:label="Obat Anak"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AlatKesehatan"
+            android:label="Alat Kesehatan"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Resep"
+            android:label="Resep"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Cari"
+            android:label="Cari"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
     </application>
 
 </manifest>
