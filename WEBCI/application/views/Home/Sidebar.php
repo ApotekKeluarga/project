@@ -6,7 +6,7 @@
           <ul class="site-menu" data-plugin="menu">
             
             <li class="site-menu-item active">
-              <a href="#">
+              <a href="<?php echo base_url() ?>index.php/Web/Dashboard">
                                 <i class="site-menu-icon md-view-dashboard" aria-hidden="true"></i>
                                 <span class="site-menu-title">Dashboard</span>
               </a>
