@@ -36,6 +36,44 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.aprian_pc.akonline.MainActivity" />
         </activity>
+<<<<<<< HEAD:AKOLN/app/src/main/AndroidManifest.xml
+        <activity android:name=".Checkout" />
+        <activity android:name=".TentangKami" />
+        <activity android:name=".KetentuanLayanan" />
+        <activity android:name=".KetentuanPenggunaan" />
+        <activity android:name=".KetentuanTransaksi" />
+        <activity android:name=".ProfilUser" />
+        <activity
+            android:name=".ObatHerbal"
+            android:label="Obat Herbal"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ObatAntibiotik"
+            android:label="Obat Antibiotik"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ObatSuplemen"
+            android:label="Obat Suplemen"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ObatAnak"
+            android:label="Obat Anak"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AlatKesehatan"
+            android:label="Alat Kesehatan"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Resep"
+            android:label="Resep"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Cari"
+            android:label="Cari"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".SplashLayer"></activity>
+=======
+>>>>>>> 01e0f097035f16b9e36c8354f13aca836569c5c6:AKOnline/app/src/main/AndroidManifest.xml
     </application>
 
 </manifest>

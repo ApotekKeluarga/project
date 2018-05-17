@@ -53,13 +53,19 @@ public class Login extends AppCompatActivity {
         });
     }
 
-    private void openMenuDaftar() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(Login.this);
-
-        builder.setTitle("Perhatian")
-                .setMessage("Anda yakin akan mendaftar akun ?")
-                .setNegativeButton("Tidak", null)
-                .setPositiveButton("Ya",null).create().show();
+    public void openMenuDaftar() {
+//        AlertDialog.Builder builder = new AlertDialog.Builder(Login.this);
+//        android.app.AlertDialog alert = builder.create();
+//        alert.show();
+//        builder.setTitle("Perhatian")
+//                .setMessage("Anda yakin akan mendaftar akun ?")
+//                .setNegativeButton("Tidak",null)
+//                .setPositiveButton("Ya", new DialogInterface.OnClickListener() {
+//                    @Override
+//                    public void onClick(DialogInterface dialog, int which) {
+//
+//                    }
+//                });
         Intent intent = new Intent(this,Daftar.class);
         startActivity(intent);
     }
