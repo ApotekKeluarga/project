@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:padding="10dp"
+        android:text="Detail Pemesanan"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_below="@id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/bt_datepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/alamat"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:background="@color/green_sea"
+        android:text="Pilih tanggal pesan" />
+
+    <TextView
+        android:id="@+id/tanggal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/bt_datepicker"
+        android:text="Tanggal yang dipilih : " />
+
+    <TextView
+        android:id="@+id/metode_pembayaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:padding="10dp"
+        android:layout_below="@+id/tanggal"
+        android:text="Metode Pembayaran"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="#000000" />
+
+    <RadioButton
+        android:id="@+id/cod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/metode_pembayaran"
+        android:text="Cash on Delivery" />
+
+    <TextView
+        android:id="@+id/keterangan_cod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cod"
+        android:paddingBottom="10dp"
+        android:text="Pembayaran diserahkan kepada kurir, setelah tiba di alamat pengirim" />
+
+    <TextView
+        android:id="@+id/metode_pengiriman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:padding="10dp"
+        android:layout_below="@+id/keterangan_cod"
+        android:text="Metode Pengiriman"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="#000000" />
+
+    <RadioButton
+        android:id="@+id/layanan_antar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/metode_pengiriman"
+        android:text="Layanan Kurir" />
+
+    <TextView
+        android:id="@+id/keterangan_kirim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layanan_antar"
+        android:text="Pengiriman gratis hanya berlaku untuk kawasan kampus, dan melayani pengiriman berbiaya hingga Patrang atau Kaliwates " />
+</RelativeLayout>

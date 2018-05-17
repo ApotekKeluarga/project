@@ -49,6 +49,18 @@
               <th>Keterangan</th>
 			        <th width="115px">Action</th>
 			      </tr>
+            <?php
+            foreach ($data_resep as $row) {
+            ?>
+            <tr>
+              <th><?php echo $row -> kd_kirim_resep ?></th>
+              <th><?php echo $row -> status_obat?></th>
+              <th><?php echo $row -> status_pesanan ?></th>
+              <th><?php echo $row -> img ?></th>
+              <th><?php echo $row -> harga_obat ?></th>
+              <th><?php echo $row -> keterangan ?></th>
+            </tr>
+            <?php } ?>
 		    </thead>
             <tbody>
               

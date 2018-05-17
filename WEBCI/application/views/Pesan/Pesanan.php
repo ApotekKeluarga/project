@@ -40,15 +40,34 @@
           <div class="table-responsive"></div>
 		    <table class="table table-bordered" width="100%" cellspacing="0">
 		      <thead class="bg-light">
+            
 			      <tr>
-			        <th>No.</th>
-              <th>Nama</th>
-              <th>No. Telpon</th>
+			        <th>Kode pesan</th>
+              <th>Kode User</th>
+              <th>Nama User</th>
+              <th>No. Telp </th>
               <th>Tanggal Order</th>
               <th>Alamat</th>
+              <th>Metode Pengiriman</th>
+              <th>Metode Pembayaran</th>
               <th>status</th>
 			        <th width="115px">Action</th>
 			      </tr>
+            <?php
+            foreach ($data_pesanan as $row) {
+            ?>
+            <tr>
+              <th><?php echo $row -> kd_order ?></th>
+              <th><?php echo $row -> kd_user ?></th>
+              <th><?php echo $row -> nama ?></th>
+              <th><?php echo $row -> No_telp ?></th>
+              <th><?php echo $row -> Tgl_order ?></th>
+              <th><?php echo $row -> Detail_alamat ?></th>
+              <th><?php echo $row -> mtd_pengirman ?></th>
+              <th><?php echo $row -> mtd_pembayaran ?></th>
+              <th><?php echo $row -> status ?></th>
+            </tr>
+            <?php } ?>
 		    </thead>
             <tbody>
               
