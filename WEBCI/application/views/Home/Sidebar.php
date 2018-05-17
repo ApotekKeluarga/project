@@ -40,12 +40,12 @@
               </a>
               <ul class="site-menu-sub">
         <li class="site-menu-item">
-                  <a href="<?php echo base_url() ?>index.php/Kategori_obat">
+                  <a href="<?php echo base_url() ?>index.php/Dataobat/Kategori_obat">
                     <span class="site-menu-title">Kategori Obat</span>
                   </a>
                 </li>
         <li class="site-menu-item">
-                  <a href="<?php echo base_url() ?>index.php/Data_obat">
+                  <a href="<?php echo base_url() ?>index.php/Dataobat/Data_obat">
                     <span class="site-menu-title">Data Obat</span>
                   </a>
                 </li>
